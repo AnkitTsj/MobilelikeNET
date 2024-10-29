@@ -21,10 +21,25 @@ dataset- https://www.kaggle.com/c/imagenet-object-localization-challenge
 The main model is non multi batched training and "just" works while i also implemented the multi batched training version of model to see if the model is actually capable of doing the task when the graph shows a consistent decline in loss ater 43k images over 60k images range,
 while the current model needs more experimentation and computaion as it shows a cear sign of poetntail improvement as it can be observed in graph,
 ![image](https://github.com/user-attachments/assets/0a37bc7c-f6bf-4784-90b9-7d3257288b90)
+
+
 while here is the graph for batched training
+which has been trained over 16000+ images,
+
+
 ![image](https://github.com/user-attachments/assets/45834ceb-87ec-4800-8bf0-070b6ae4a5de)
 
-This is an image of how the multi batch training version with first layer at 10th channel is detecting edges ![image](https://github.com/user-attachments/assets/9fb7ac35-e160-409b-b723-35019067a594)
-while the 512 channel does some pretty good separations between edges and areas ![image](https://github.com/user-attachments/assets/2e390208-bba9-48f7-8ea6-0f22c08bf840)
-the mutli batch model works fine over the animal image data as it was trained on animal images only and here is an example of how it identifies similar object but with confusion
+This is an image of how the multi batch training version with first layer at 10th channel is detecting edges
+
+
+![image](https://github.com/user-attachments/assets/9fb7ac35-e160-409b-b723-35019067a594)
+while the 512 channel does some pretty good separations between edges and areas
+
+![image](https://github.com/user-attachments/assets/2e390208-bba9-48f7-8ea6-0f22c08bf840)
+
+
+the mutli batch model works fine over the animal image data as it was trained on animal 
+images only and here is an example of how it identifies similar object but with confusion
+
+
 ![image](https://github.com/user-attachments/assets/87756922-d32e-4487-96c4-f2106666a68b)
