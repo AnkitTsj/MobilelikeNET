@@ -1,0 +1,11 @@
+pillow==10.3.0
+matplotlib==3.9.0
+numpy==1.26.4
+pandas==2.2.2
+torch==2.4.1+cu124
+torchaudio==2.4.1+cu124
+torchvision==0.19.1+cu124
+pycocotools==2.0.8
+json5==0.9.6
+
+
